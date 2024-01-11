@@ -23,28 +23,7 @@ const App = () => {
                     <div>
                         <p className='text-[40px] ml-6 flex items-center font-sans gap-4 font-bold navbar2'><FaServer /> GreenHost</p>
                     </div>
-                    <div className='flex gap-6 text-[16px] font-sans items-center font-normal uppercase navbar3'>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'/'} > Home</NavLink>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'about'}> about</NavLink>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'domain'}> domain</NavLink>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'hosting'}> hosting</NavLink>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'our team'}> Pages</NavLink>
-                        <NavLink className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        } to={'contact'}> contact</NavLink>
-                        <p> <AiOutlineSearch size={22} color={'#FF0F10'} /></p>
-                        <button className="p-2 px-6 bg-[#FF0F10] text-[18px] rounded-[8px] font-normal hover:bg-[#fff000] hover:text-[#FF0F10] duration-300 active:scale-50 navbar4"> Register</button>
-                    </div>
+                    
                 </div>
             </div>
             <Routes>
